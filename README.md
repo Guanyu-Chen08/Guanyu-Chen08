@@ -1,4 +1,5 @@
-- 👋 Hi, I’m @Guanyu-Chen08, a current student at Univ of Sci & Tech of China.
+Hello, and welcome to my GitHub profile
+- 👋 I’m Guanyu Chen, a freshman at Univ of Sci & Tech of China.
 - 👀 I’m interested in artificial intelligence and data science.
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
