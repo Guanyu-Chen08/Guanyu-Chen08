@@ -22,8 +22,6 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Guanyu-Chen08&show_icons=true&theme=default&bg_color=ffffff" alt="Guanyu Chen's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guanyu-Chen08&layout=compact&theme=default&bg_color=ffffff" alt="Top Langs" />
 </p>
 
 ---
