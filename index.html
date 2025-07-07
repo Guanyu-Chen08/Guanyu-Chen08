@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Todo List</title>
+    <meta name="description" content="A modern, responsive todo list application with local storage">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="app-title">
+                <span class="title-icon">✓</span>
+                Todo List
+            </h1>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </header>
+
+        <main class="main-content">
+            <!-- Task Input Section -->
+            <section class="task-input-section">
+                <form id="taskForm" class="task-form" role="form" aria-label="Add new task">
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="taskInput" 
+                            class="task-input" 
+                            placeholder="What needs to be done?" 
+                            autocomplete="off"
+                            aria-label="Enter new task"
+                            required
+                        >
+                        <button type="submit" class="add-btn" aria-label="Add task">
+                            <span class="btn-icon">+</span>
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Task Filters -->
+            <nav class="filters" role="navigation" aria-label="Task filters">
+                <button id="filterAll" class="filter-btn active" data-filter="all">
+                    All
+                </button>
+                <button id="filterActive" class="filter-btn" data-filter="active">
+                    Active
+                </button>
+                <button id="filterCompleted" class="filter-btn" data-filter="completed">
+                    Completed
+                </button>
+            </nav>
+
+            <!-- Task Counter -->
+            <div class="task-counter" role="status" aria-live="polite">
+                <span id="taskCount">0 tasks remaining</span>
+            </div>
+
+            <!-- Task List -->
+            <section class="task-list-section">
+                <ul id="taskList" class="task-list" role="list" aria-label="Task list">
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+                
+                <div id="emptyState" class="empty-state" role="status">
+                    <div class="empty-icon">📝</div>
+                    <h2>No tasks yet</h2>
+                    <p>Add a task above to get started!</p>
+                </div>
+            </section>
+
+            <!-- Task Actions -->
+            <footer class="task-actions">
+                <button id="clearCompleted" class="clear-btn" aria-label="Clear all completed tasks">
+                    Clear Completed
+                </button>
+                <div class="data-actions">
+                    <button id="exportData" class="data-btn" aria-label="Export tasks">
+                        Export
+                    </button>
+                    <button id="importData" class="data-btn" aria-label="Import tasks">
+                        Import
+                    </button>
+                    <input type="file" id="importFile" accept=".json" style="display: none;">
+                </div>
+            </footer>
+        </main>
+
+        <!-- Confirmation Modal -->
+        <div id="confirmModal" class="modal" role="dialog" aria-labelledby="confirmTitle" aria-hidden="true">
+            <div class="modal-content">
+                <h3 id="confirmTitle" class="modal-title">Confirm Action</h3>
+                <p id="confirmMessage" class="modal-message"></p>
+                <div class="modal-actions">
+                    <button id="confirmCancel" class="modal-btn secondary">Cancel</button>
+                    <button id="confirmOk" class="modal-btn primary">Confirm</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div id="toastContainer" class="toast-container" role="alert" aria-live="polite">
+            <!-- Toast messages will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
