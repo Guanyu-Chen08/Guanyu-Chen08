@@ -21,11 +21,11 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Guanyu-Chen08&show_icons=true&theme=default&bg_color=ffffff" alt="Guanyu Chen's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Guanyu-Chen08&show_icons=true&theme=tokyonight" alt="Guanyu Chen's GitHub stats" />
 </p>
 
 ---
 <!---
 Guanyu-Chen08/Guanyu-Chen08 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->
+-->
