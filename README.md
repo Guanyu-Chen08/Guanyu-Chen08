@@ -9,6 +9,7 @@
 - 📬 **How to Reach Me:**
     - Email: guanyuchen@mail.ustc.edu.cn
     - Personal website: https://www.gychen.me/
+
 ---
 
 ## 🚀 Skills
@@ -21,10 +22,25 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Guanyu-Chen08&show_icons=true&theme=tokyonight" alt="Guanyu Chen's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Guanyu-Chen08&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" alt="Guanyu Chen's GitHub stats" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Guanyu-Chen08&theme=tokyonight" alt="GitHub Streak" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guanyu-Chen08&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" height="180" />
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Guanyu-Chen08&theme=tokyonight" alt="Profile Details" />
+</p>
+
+---
+
 <!---
 Guanyu-Chen08/Guanyu-Chen08 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
