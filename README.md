@@ -19,12 +19,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Guanyu-Chen08&theme=tokyonight" alt="Profile Details" />
-</p>
-
----
-
 <!---
 Guanyu-Chen08/Guanyu-Chen08 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
