@@ -7,8 +7,8 @@
 - 🔭 **Interests:** Artificial Intelligence, Computer Science, Machine Learning, Large Language Model, Computer Vision, Programming
 - 🤖 **Currently Learning:** Python, Deep Learning, Algorithms, Data Structures
 - 📬 **How to Reach Me:**
-    - Email: guanyuchen@mail.ustc.edu.cn
-    - Personal website: https://www.gychen.me/
+    - Email: chenguanyu@mail.ustc.edu.cn
+    - Personal website: https://www.gychen.top/
 
 ---
 
